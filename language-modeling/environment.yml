@@ -1,0 +1,20 @@
+name: bsdsba-lm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - python=3.8.16
+  - ipykernel
+  - seaborn
+  - pip
+  - scipy
+  - notebook
+  - scikit-learn
+  - pip:
+    - jupyter-contrib-nbextensions
+    - ipywidgets
+    - tqdm
+    - nltk
